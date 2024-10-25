@@ -18,4 +18,9 @@ public class AppTest {
     public void testMore() {
         assertTrue(true);
     }
+
+    @Test
+    public void testFailure() {
+        assertTrue("Dieser Unittest für zum Fehler um den Test im Buildworkflow zu testen",false);
+    }
 }
