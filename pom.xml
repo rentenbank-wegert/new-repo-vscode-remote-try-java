@@ -37,7 +37,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/retenbank-wegert/new-repo-vscode-remote-try-java</url>
+      <url>https://maven.pkg.github.com/rentenbank-wegert/new-repo-vscode-remote-try-java</url>
     </repository>
   </distributionManagement>
 
