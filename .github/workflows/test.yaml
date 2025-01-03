@@ -1,4 +1,8 @@
-on: pull_request
+on: 
+  push:
+    branches:
+      - '*'
+  pull_request
 
 jobs:
   quality-assurance:
