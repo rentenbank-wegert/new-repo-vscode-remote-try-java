@@ -1,0 +1,15 @@
+#on: 
+# push:
+#   branches:
+#      - '*'
+#  pull_request
+on:
+  pull_request
+
+jobs:
+  quality-assurance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: run test
+        run: ./test.sh
