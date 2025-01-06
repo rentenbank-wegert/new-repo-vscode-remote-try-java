@@ -1,5 +1,4 @@
-#
-# https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners
+# About GitHub-hosted runners: https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners
 
 name: Führt test.sh Script beim push oder pull_request in den main branch aus
 on:
