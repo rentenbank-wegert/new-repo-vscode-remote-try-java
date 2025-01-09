@@ -1,0 +1,16 @@
+# About GitHub-hosted runners: https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners
+
+name: Führt test.sh Script beim push oder pull_request in den main branch aus
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality-assurance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: run test
+        run: ./test.sh
