@@ -21,6 +21,6 @@ public class AppTest {
 
     @Test
     public void testFailure() {
-        assertTrue("Dieser Unittest führt zum Fehler, um den Unittest im Buildworkflow zu testen",true);
+        assertTrue("Dieser Unittest führt zum Fehler, um den Unittest im Buildworkflow zu testen", true);
     }
 }
