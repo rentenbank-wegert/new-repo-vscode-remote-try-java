@@ -24,3 +24,5 @@ jobs:
       - name: Build with Maven
         run: 'mvn package'
         shell: bash
+      - name: run test
+        run: ./test.sh
